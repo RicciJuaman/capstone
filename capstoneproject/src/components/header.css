@@ -1,0 +1,22 @@
+header {
+    margin: 0 !important;
+    height: 220px;
+    background-color: #495E57 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav {
+
+}
