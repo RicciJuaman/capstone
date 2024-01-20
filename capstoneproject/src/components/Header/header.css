@@ -1,0 +1,37 @@
+
+
+
+header {
+    margin: 0 !important;
+    height: 220px;
+    background-color: #FFFFFF ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+img {
+    margin-left: 140px;
+}

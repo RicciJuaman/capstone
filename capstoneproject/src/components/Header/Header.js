@@ -1,10 +1,11 @@
 import React from "react";
-import './header.css'
+import './header.css';
+import Logo from './Logo.svg';
 
 export const Header = () => {
   return (
     <header>
-        <h1>Logo</h1>
+        <img src={Logo} alt="Logo" height={105}/>
         <nav>
         <ul>
             <li>Home</li>
