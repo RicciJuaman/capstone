@@ -3,18 +3,19 @@
     padding: 0;
 }
 
-
 main {
     background-color: #495E57;
-    height: 570px;
 }
 
-main {
+
+.heroContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 51px;
+    height: 650px;
+    margin-left: 350px;
 }
 
 .title {
@@ -24,6 +25,7 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: -70px;
 }
 
 .subTitle {
@@ -33,7 +35,7 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 18.24px;
+    letter-spacing: 19px;
 }
 
 .description {
@@ -42,17 +44,18 @@ main {
     color: #EDEFEE;
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 90px;
 }
 
 .resButton {
     display: flex;
-    width: 204px;
+    width: 150px;
     height: 45px;
-    padding: 18px 42px;
+    padding: 0px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -60,3 +63,4 @@ main {
     border: 5px solid #333;
     background: #FFC700;
 }
+
