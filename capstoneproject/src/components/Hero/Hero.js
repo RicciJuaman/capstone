@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import imagePhoto from './heroPhoto.jpg'
 
 export const Hero = () => {
   return (
@@ -14,6 +15,7 @@ export const Hero = () => {
         delight. Join us for an unforgettable dining experience.
         </div>
         <div className="resButton">Reserve a table</div>
+        <img src={imagePhoto} alt="Little Lemon" className="heroPhoto"></img>
       </div>
     </main>
   );
