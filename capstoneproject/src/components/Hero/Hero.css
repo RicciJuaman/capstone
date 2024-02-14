@@ -15,7 +15,7 @@ main {
     align-items: flex-start;
     gap: 51px;
     height: 650px;
-    margin-left: 300px;
+    margin-left: 400px;
 }
 
 .title {
@@ -71,6 +71,6 @@ main {
     border-radius:  15px;
     box-shadow: 16px 16px 4px #333;
     position:  absolute;
-    left: 950px;
+    left: 1150px;
     top: 350px;
 }
