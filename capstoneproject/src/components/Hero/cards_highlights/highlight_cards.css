@@ -1,32 +1,71 @@
-.high_card {
+
+.hc-cont {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 15.5% 0 15.5%;
+}
+
+.high_all {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.high_card {
+    height: 560px;
     width: 300px;
-    height: 400px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EDEFEE;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 10px 10px 20px grey;
 }
 
 .high_photo {
     width: 100%;
-    height: 80%;
+    height: 100%;
     overflow: hidden;
+    border-radius: 16px 16px 0 0;
 }
 
-.greekPhoto {
+.high_photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-left: 0;
+}
+
+.high_text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 .high_title {
-    width: 100%;
-    height: 20%;
-    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    text-align: center;
-    color: #333;
+    color: dimgray;
+    width: 100%;
+    text-align: left;
+}
+
+.high_desc {
+    width: 100%;
+    margin-left: 10%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.high_order {
+    text-align: right;
 }
