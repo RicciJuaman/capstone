@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import imagePhoto from "./heroPhoto.jpg";
 import { Break } from "../Break/Break.js";
-import { HighlightCards } from "./cards_highlights/Highlight_Cards.js";
+import { HighlightCards } from "./cards_highlights/HighlightCards.js";
 
 export const Hero = () => {
   return (
