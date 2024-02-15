@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-main {
+.main {
     background-color: #495E57;
 }
 
@@ -73,4 +73,9 @@ main {
     position:  absolute;
     left: 1150px;
     top: 350px;
+}
+
+.specials {
+    background-color: beige;
+    height: 70vh;
 }
