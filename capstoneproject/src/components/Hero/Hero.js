@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import imagePhoto from "./heroPhoto.jpg";
 import { Break } from "../Break/Break.js";
-import { Highlight_cards } from "./cards_highlights/Highlight_cards.js";
+import { HighlightCards } from "./cards_highlights/Highlight_Cards.js";
 
 export const Hero = () => {
   return (
@@ -24,7 +24,7 @@ export const Hero = () => {
         <div className="specialCards">
           <div className="spec_title">Chef's Special</div>
           <div className="high_cards">
-            <Highlight_cards />
+            <HighlightCards />
           </div>
         </div>
       </div>
