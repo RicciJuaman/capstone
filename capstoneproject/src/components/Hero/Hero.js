@@ -1,7 +1,8 @@
 import React from "react";
 import "./Hero.css";
-import imagePhoto from './heroPhoto.jpg';
-import {Break} from '../Break/Break.js';
+import imagePhoto from "./heroPhoto.jpg";
+import { Break } from "../Break/Break.js";
+import { Highlight_cards } from "./cards_highlights/Highlight_cards.js";
 
 export const Hero = () => {
   return (
@@ -21,7 +22,10 @@ export const Hero = () => {
       <Break />
       <div className="specials">
         <div className="specialCards">
-          {/* Add your special cards content here */}
+          <div className="spec_title">Chef's Special</div>
+          <div className="high_cards">
+            <Highlight_cards />
+          </div>
         </div>
       </div>
     </div>
