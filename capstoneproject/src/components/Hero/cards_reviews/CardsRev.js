@@ -1,11 +1,11 @@
 import React from 'react'
 import './cardsRev.css'
 
-export const CardsRev = ({customerRev, customerName}) => {
+export const CardsRev = ({customerRev, customerName, imgSrc}) => {
   return (
     <main className='rev_card'>
       <div className='profilePic'>
-        <img src='' alt='Profile Pic' />
+        <img src={imgSrc} alt='Profile Pic' />
       </div>
       <div className='customerRev'>
         {customerRev}
