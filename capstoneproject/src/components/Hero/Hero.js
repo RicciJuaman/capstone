@@ -3,9 +3,12 @@ import "./Hero.css";
 import imagePhoto from "./heroPhoto.jpg";
 import { Break } from "../Break/Break.js";
 import { HighlightCards } from "./cards_highlights/HighlightCards.js";
+import { CardsRev } from "./cards_reviews/CardsRev.js";
 
 export const Hero = () => {
+
   return (
+
     <div className="main">
       <div className="heroContent">
         <div className="title">Little Lemon</div>
@@ -25,6 +28,17 @@ export const Hero = () => {
           <div className="spec_title">Chef's Special</div>
           <div className="high_cards">
             <HighlightCards />
+          </div>
+        </div>
+      </div>
+      <Break />
+      <div className="overRev">
+        <div className="reviews">
+          <div className="revTitle">Reviews</div>
+          <div className="revContent">
+            <CardsRev customerRev="Little Lemon is a culinary gem! The exquisite flavors and cozy ambiance make every visit a delight. From the refreshing Greek Salad to the heartwarming Chicken Soup, each dish is a masterpiece. Little Lemon is more than a restaurant; it's an experience that leaves your taste buds longing for more. A hidden culinary treasure worth discovering!" 
+            customerName="Eric, 21"
+            />
           </div>
         </div>
       </div>

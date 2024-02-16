@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 15.5% 0 15.5%;
+    flex-wrap: wrap;
 }
 
 .high_all {
@@ -23,7 +24,9 @@
     background-color: #EDEFEE;
     border-radius: 16px 16px 0 0;
     box-shadow: 10px 10px 20px grey;
+    min-width: none;
 }
+
 
 .high_photo {
     width: 100%;
