@@ -4,6 +4,7 @@ import imagePhoto from "./heroPhoto.jpg";
 import { Break } from "../Break/Break.js";
 import { HighlightCards } from "./cards_highlights/HighlightCards.js";
 import { CardsRev } from "./cards_reviews/CardsRev.js";
+import ericProf from "./cards_reviews/ericprof.jpg";
 
 export const Hero = () => {
 
@@ -36,7 +37,7 @@ export const Hero = () => {
         <div className="reviews">
           <div className="revTitle">Reviews</div>
           <div className="revContent">
-            <CardsRev customerRev="Little Lemon is a culinary gem! The exquisite flavors and cozy ambiance make every visit a delight. From the refreshing Greek Salad to the heartwarming Chicken Soup, each dish is a masterpiece. Little Lemon is more than a restaurant; it's an experience that leaves your taste buds longing for more. A hidden culinary treasure worth discovering!" 
+            <CardsRev imgSrc={ericProf} customerRev="Little Lemon is a culinary gem! The exquisite flavors and cozy ambiance make every visit a delight. From the refreshing Greek Salad to the heartwarming Chicken Soup, each dish is a masterpiece. Little Lemon is more than a restaurant; it's an experience that leaves your taste buds longing for more. A hidden culinary treasure worth discovering!" 
             customerName="Eric, 21"
             />
           </div>

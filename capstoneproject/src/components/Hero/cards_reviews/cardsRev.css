@@ -1,9 +1,52 @@
 .rev_card {
-    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEFEE;
     height: 300px;
-    width: 350px;
+    width: 320px;
     border-radius: 45px;
     border-radius: 45px;
     box-shadow: 10px 10px 20px rgb(62, 62, 62);
+    justify-content: space-between;
+    padding: 8px 8px 8px 8px;
 }
 
+.profilePic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33%;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.profilePic img {
+    border-radius: 50%;
+    margin: 0;
+    object-fit: cover;
+    height: 90%;
+    width: 27%;
+    object-position: -3px -3px;
+    border-color: rgb(243, 184, 34);
+    border-style: solid;
+}
+
+.customerRev {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-align: justify;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileName {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 90%;
+    font-size: 15px;
+    text-align: right;
+    color: rgb(100, 99, 99);
+}
