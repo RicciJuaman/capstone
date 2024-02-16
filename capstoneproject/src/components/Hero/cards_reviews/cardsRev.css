@@ -50,3 +50,29 @@
     text-align: right;
     color: rgb(100, 99, 99);
 }
+
+
+
+.rev_card:nth-child(2) .profilePic img {
+    border-radius: 50%;
+    margin: 0;
+    object-fit: cover;
+    height: 90%;
+    width: 27%;
+    object-position: -17px -3px;
+    border-color: rgb(243, 184, 34);
+    border-style: solid;
+}
+
+
+
+.rev_card:nth-child(3) .profilePic img {
+    border-radius: 50%;
+    margin: 0;
+    object-fit: cover;
+    height: 90%;
+    width: 27%;
+    object-position: -4px 0px;
+    border-color: rgb(243, 184, 34);
+    border-style: solid;
+}
