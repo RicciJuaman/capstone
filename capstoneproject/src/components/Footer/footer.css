@@ -1,0 +1,66 @@
+.footerMain {
+    background-color: #FFFFFF;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    margin-right: auto;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo img {
+    height: 180px;
+    object-fit: cover;
+    box-shadow: 10px 10px 4px #333;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.logo {
+    width: 25%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+}
+
+.footer-col h4 {
+    font-weight: bold;
+    margin-bottom: 10px; /* Adjust as needed for space between title and list */
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px; /* Adjust as needed for space between list items */
+    text-align: center;
+    width: 100%;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+}
